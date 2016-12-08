@@ -13,10 +13,17 @@ scrabble('abcdefg', 'lolrofl') # false
 Test cases will be read in from a challenge.txt, arranged as an N by 2 matrix with
 the scrambled letters in the left column and the target word on the right, i.e.:
 
-| Scrambled | Target |
-|-----------|:------:|
-| rehsack   | hackers|
-| ...       | ...    |
-| corsmom   |carboat |
+| Scrambled | Target | Truth |
+|-----------|:------:|:-----:|
+| rehsack   | hackers| True  |
+|   ...     |  ...   |  ...  |
+| corsmom   |carboat | False |
+
+You can build a local challenge set from the provided challenge.txt, or build your own
+by piping a list of random words:
+
+```bash
+$ cat /usr/share/dict/words | grep -o -w '\w\{3,7\}' | sort -R | head -n 100 | python buildchallenge.py >> challenge.txt
+```
 
 Please have your program write to STDOUT or solution.txt file in your root directory.
