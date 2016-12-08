@@ -19,8 +19,8 @@ the scrambled letters in the left column and the target word on the right, i.e.:
 |   ...     |  ...   |  ...  |
 | corsmom   |carboat | False |
 
-You can build a local challenge set from the provided challenge.txt, or build your own
-by piping a list of random words:
+You can use the provided challenge set, challenge.txt or build your own
+by piping a list of random words to the provided python script:
 
 ```bash
 $ cat /usr/share/dict/words | grep -o -w '\w\{3,7\}' | sort -R | head -n 100 | python buildchallenge.py >> challenge.txt

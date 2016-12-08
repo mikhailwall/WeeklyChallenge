@@ -1,0 +1,19 @@
+{
+  "name": "weeklychallenge",
+  "version": "1.0.0",
+  "description": "Every week, a programming problem will be posted here. The challenge will be placed in a README.md under a folder with the date that the challenge was issued:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CollaboratingBuddies/WeeklyChallenge.git"
+  },
+  "author": "CollaboratingBuddies",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CollaboratingBuddies/WeeklyChallenge/issues"
+  },
+  "homepage": "https://github.com/CollaboratingBuddies/WeeklyChallenge#readme"
+}
