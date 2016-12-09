@@ -10,7 +10,7 @@ scrabble('abcdefg', 'lolrofl') # false
 ```
 
 
-Test cases will be read in from a challenge.txt, arranged as an N by 2 matrix with
+Test cases will be read in from a challenge.txt, arranged as an N by 3 matrix with
 the scrambled letters in the left column and the target word on the right, i.e.:
 
 | Scrambled | Target | Truth |
