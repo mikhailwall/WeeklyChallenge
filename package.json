@@ -12,6 +12,9 @@
   },
   "author": "CollaboratingBuddies",
   "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.2"
+  },
   "bugs": {
     "url": "https://github.com/CollaboratingBuddies/WeeklyChallenge/issues"
   },
